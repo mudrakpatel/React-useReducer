@@ -14,7 +14,6 @@ const reducerFunction = (currentState, action) => {
 function Counter1(){
   const [count, dispatch] = useReducer(reducerFunction, initialState);
 
-
   return(
     <div>
       <div>Count: {count}</div>
