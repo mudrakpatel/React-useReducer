@@ -1,7 +1,8 @@
 import React, {useReducer} from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import DataFetchingOne from './components/DataFetchingOne';
+//import DataFetchingOne from './components/DataFetchingOne';
+import DataFetchingTwo from './components/DataFetchingTwo';
 //import Counter1 from './components/Counter1';
 //import Counter2 from './components/Counter2';
 //import Counter3 from './components/Counter3';
@@ -27,7 +28,8 @@ function App() {
 
   return (
     <div className="App">
-      <DataFetchingOne/>
+      {/*<DataFetchingOne/>*/}
+      <DataFetchingTwo/>
     </div>
   );
 }
